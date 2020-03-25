@@ -2,8 +2,6 @@
 
 網站連結：https://s40723201.github.io/cd2020/content/index.html
 
-BLOG連結：
-
-投影片連結：
+投影片連結：https://s40723201.github.io/cd2020/reveal/index.html#/
 
 期中影片：
