@@ -154,67 +154,36 @@ img.add_border {
           </div>
           
         </header>
-    <div id="tipue_search_content">Weeks << <a href='Weeks.html'>Previous</a> <a href='開會紀錄-1.html'>Next</a> >> 開會紀錄-1<br /><h1>Week1~Week5</h1>
-<p><span style="color: #ff0000;">WEEK1</span></p>
-<p><strong>建立個人倉儲cd2020及進行網站編譯</strong></p>
-<p><span>．下載</span><span><a href="https://drive.google.com/file/d/1fxMdqdCoCL__O1IpZ-Sv-A_4-c77Wx4E/view?usp=sharing">2019Fall可攜套件.7z</a></span><span><span> </span>，完成後開啟。<br/>．登入個人github帳號，創建新的倉儲cd2020。<br/></span><span>．進入要存放資料夾tmp。<br/></span><span>．輸入 </span><span>git clone  <span>https://github.com/s40723201/cd2020<span>  複製</span></span>個人倉儲至資料夾<span>。<br/>．輸入 git submodule add https://github.com/mdecourse/cmsimde.git  取得子模組資料。<br/>．將 up_dir 的所有項目複<span>製到cd2020</span>。<br/>．完成後，python wsgi.py 開始編輯倉儲。<br/>．編輯完成後，git status<span><span> </span>-&gt;</span><span> </span>git add .<span><span> </span>-&gt;</span><span> </span>git commit -m "XXX"<span><span> </span>-&gt;</span><span> </span>git push。</span></span></p>
-<p><span style="color: #ff0000;">WEEK 2</span></p>
-<p><span><strong></strong></span><span><strong><span>將可攜系統中的 python3.7.3 更新至 python3.8.2 版本</span></strong></span></p>
-<p><span>．收尋 </span><a href="https://www.python.org/">Python</a>官網。<br/><span color="#808080"><span>．</span>點選Downloads下的<a href="https://www.python.org/downloads/windows/">Windows</a>，並點選 <a href="https://www.python.org/downloads/release/python-382/">Latest Python 3 Release - Python 3.8.2</a>。</span><span color="#808080"><br/><span>．</span>找到 <span style="color: #ff0000;"><a href="https://www.python.org/ftp/python/3.8.2/python-3.8.2-amd64.exe" style="color: #ff0000;">Windows x86-64 executable installer</a> </span>並下載。</span><span color="#808080"><br/><span>．</span>開始下載，必須將 <span style="color: #ff0000;">pip</span>選項<span style="color: #ff0000;">取消</span><br/><img alt="" height="426" src="https://s40723227.github.io/cd2020/images/3.png" width="700"/><br/></span></p>
-<p><span color="#000000"><span>．建立新的start.bat</span></span></p>
-<p><strong>start.bat:</strong></p>
-<div>
-<table>
-<tbody>
-<tr>
-<td><span>@echo off</span><br/><span>set Disk=y</span><br/><span>subst %Disk%: "data"</span><br/><br/><span>%Disk%:</span><br/><br/><span>set HomePath=%Disk%:\home_mdecourse</span><br/><span>set HomeDrive=%Disk%:\home_mdecourse</span><br/><span>set Home=%Disk%:\home_mdecourse</span><br/><span>set USERPROFILE=%Disk%:\home_mdecourse</span><br/><br/><span>REM 將系統 Python 程式的 io 設為 utf-8</span><br/><span>set PYTHONIOENCODING="utf-8"</span><br/><br/><span>set PYTHONPATH=%Disk%:\py38\DLLs;%Disk%:\py38\Lib;%Disk%:\py38\Lib\site-packages;</span><br/><span>set PYTHONHOME=%Disk%:\py38</span><br/><br/><span>REM for flutter</span><br/><span>set java_home=%Disk%:\java\jdk8u222-b10</span><br/><span>set ANDROID_SDK_home=%Disk%:\home_mdecourse</span><br/><span>set GRADLE_USER_home=%Disk%:\home_mdecourse</span><br/><span>set ANDROID_SDK_ROOT=%Disk%:\android\sdk</span><br/><span>set ANDROID_Home=%Disk%:\android\sdk\tools</span><br/><br/><span>REM for putty</span><br/><span>set GIT_HOME=%CDisk%:\portablegit\bin\</span><br/><span>set GIT_SSH=%Disk%:\putty\plink.exe</span><br/><br/><span>set path_python=%Disk%:\py38;%Disk%:\py38\Scripts;</span><br/><span>set path_msys2=%Disk%:\msys64\mingw64\bin;</span><br/><span>REM coreutils is for compiling fossil scm</span><br/><span>set path_coreutils=%Disk%:\coreutils-5.3.0\bin;%Disk%:\depends22_x64;</span><br/><span>set path_tcc=%Disk%:\tcc;</span><br/><span>set path_cmake=%Disk%:\cmake-3.10.1-win64-x64\bin;</span><br/><span>set path_nodejs=%Disk%:\nodejs;%Disk%:\nodejs\appdata\roaming\npm;</span><br/><span>set path_git=%Disk%:\portablegit\bin;</span><br/><span>set path_xming=%Disk%:\Xming;</span><br/><span>set path_latex=%Disk%:\Pandoc;%Disk%:\TinyTeX\bin\win32;</span><br/><span>set path_flutter=%Disk%:\java\jdk8u222-b10\bin;%Disk%:\flutter\bin;%Disk%:\Android\sdk;%Disk%:\Android\sdk\tools;%Disk%:\Android\sdk\tools\bin;%Disk%:\Android\sdk\platform-tools;%Disk%:\flutter\bin\cache\dart-sdk\bin;%Disk%:\vscode;</span><br/><span>set path_putty=%Disk%:\putty;</span><br/><br/><span>path=%Disk%:;%path_python%;%path_msys2%;%path_tcc%;%path_git%;%path_cmake%;%path_coreutils%;%path_flutter%;%path_putty%;%path_latex%;%path%;</span><br/><br/><span>start /MIN cmd.exe</span><br/><span>start /MIN cmd.exe</span><br/><span>start /MIN cmd.exe</span><br/><span>start /MIN cmd.exe</span><br/><br/><span>start /MIN %Disk%:\wscite415\wscite\SciTE.exe</span><br/><span>start /MIN %Disk%:\wscite415\wscite\SciTE.exe</span><br/><br/><br/><span>Exit</span></td>
-</tr>
-</tbody>
-</table>
-<p><span>．</span>執行指令<span>，將python3.8.2版本缺少的模組下載下來。</span></p>
-<div>
-<div class="syntaxhighlighter py" id="highlighter_583434">
-<table border="0" cellpadding="0" cellspacing="0" style="width: 531px;">
-<tbody>
-<tr>
-<td class="gutter" style="width: 25.4px;">
-<div class="line number1 index0 alt2">1</div>
-</td>
-<td class="code" style="width: 503.6px;">
-<div class="container">
-<div class="line number1 index0 alt2"><code class="py plain">python get</code><code class="py keyword">-</code><code class="py plain">pip.py</code></div>
-</div>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-<div></div>
-<div>
-<div class="syntaxhighlighter py" id="highlighter_220325">
-<table border="0" cellpadding="0" cellspacing="0">
-<tbody>
-<tr>
-<td class="gutter">
-<div class="line number1 index0 alt2">2</div>
-</td>
-<td class="code">
-<div class="container">
-<div class="line number1 index0 alt2"><code class="py plain">pip install flask bs4 lxml pelican markdown flask_cors leo</code></div>
-</div>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-<p><span><span> </span></span></p>
-</div>
-<p><span>．下載MSYS2 </span><a class="button" href="http://repo.msys2.org/distrib/x86_64/msys2-x86_64-20190524.exe">msys2-x86_64-20190524.exe</a> 至data下。</p>
-<p><span>．下載SciTE系統 </span><span><a href="https://www.scintilla.org/wscite432.zip">full 64-bit download</a>，下載完後解壓縮至data下的wscite432。</span></p>
-<p><span>．下載PortableGit </span><a href="https://github.com/git-for-windows/git/releases/download/v2.25.1.windows.1/PortableGit-2.25.1-64-bit.7z.exe">64-bit Git for Windows Portable</a> 至 <span>portablegit下。<br/></span><span color="#000000"><span>．安裝pip，到</span></span><a href="https://bootstrap.pypa.io/get-pip.py">https://bootstrap.pypa.io/get-pip.py</a><span>頁面，另存新檔到data下。</span><br/><span></span></p>
-<br />Weeks << <a href='Weeks.html'>Previous</a> <a href='開會紀錄-1.html'>Next</a> >> 開會紀錄-1</div>
+    <div id="tipue_search_content">開會紀錄-1 << <a href='開會紀錄-1.html'>Previous</a> <a href='Week6~Week9.html'>Next</a> >> Week6~Week9<br /><h1>開會紀錄-2</h1>
+<p><span data-contrast="auto"><span data-wac-het="1">第一組 <span> </span><span>第一次會議PDF內容</span>   <span> </span></span><span data-wac-het="1">(WEEK1</span><span data-wac-het="1">)</span></span><span data-ccp-props="{}" data-wac-het="1"> </span></p>
+<p><span data-contrast="auto"><span data-wac-het="1">會議流程:</span></span></p>
+<p><span data-contrast="auto"><span data-wac-het="1">1.成員簽到</span></span><span data-ccp-props="{}" data-wac-het="1"> </span></p>
+<p><span data-contrast="auto"><span data-wac-het="1">2.討論日後分工</span></span><span data-ccp-props="{}" data-wac-het="1"> </span></p>
+<p><span data-contrast="auto"><span data-wac-het="1">3.有問題的同學提出問題</span></span><span data-ccp-props="{}" data-wac-het="1"> </span></p>
+<p><span><span data-contrast="auto"><span data-wac-het="1">成員名單</span></span><span data-ccp-props="{}" data-wac-het="1"> </span></span></p>
+<p><span data-contrast="auto"><span data-wac-het="1">1.</span></span><span data-contrast="none"><span data-ccp-charstyle="Hyperlink" data-wac-het="1">40723201</span></span><span data-contrast="none"><span data-wac-het="1"><span> </span></span><span data-wac-het="1">(簽</span><span data-wac-het="1">) 已建立完成網站</span></span><span data-ccp-props="{}" data-wac-het="1"> </span></p>
+<p><span data-contrast="none"><span data-wac-het="1">2.40723206 (簽)<span> </span></span></span><span data-contrast="none"><span data-wac-het="1">已建立完成網站<span> </span></span></span><span data-contrast="none"><span data-wac-het="1">小組長</span></span><span data-ccp-props="{}" data-wac-het="1"> </span></p>
+<p><span data-contrast="none"><span data-wac-het="1">3.40723213 (簽)<span> </span></span></span><span data-contrast="none"><span data-wac-het="1">已建立完成網站</span></span><span data-ccp-props="{}" data-wac-het="1"> </span></p>
+<p><span data-contrast="none"><span data-wac-het="1">4.40723216 (簽)<span> </span></span></span><span data-contrast="none"><span data-wac-het="1">已建立完成網站</span></span><span data-ccp-props="{}" data-wac-het="1"> </span></p>
+<p><span data-contrast="none"><span data-wac-het="1">5.40723223 (簽) </span></span><span data-ccp-props="{}" data-wac-het="1"><span data-contrast="none"><span data-wac-het="1">已建立完成網站</span></span><span data-ccp-props="{}" data-wac-het="1"> </span></span></p>
+<p><span data-contrast="none"><span data-wac-het="1">6.40723226 (簽)<span> </span></span></span><span data-contrast="none"><span data-wac-het="1">已建立完成網站</span></span><span data-ccp-props="{}" data-wac-het="1"> </span></p>
+<p><span data-contrast="none"><span data-wac-het="1">7.40723229 (簽)<span> </span></span></span><span data-contrast="none"><span data-wac-het="1">已建立完成網站<span> </span></span></span><span data-contrast="none"><span data-wac-het="1">小組長</span></span><span data-ccp-props="{}" data-wac-het="1"> </span></p>
+<p><span data-contrast="none"><span data-wac-het="1">8.40723230 (簽)<span> </span></span></span><span data-contrast="none"><span data-wac-het="1">已建立完成網站</span></span><span data-ccp-props="{}" data-wac-het="1"> </span></p>
+<p><span data-contrast="none"><span data-wac-het="1">9.40723241 (簽)<span> </span></span></span><span data-contrast="none"><span data-wac-het="1">已建立完成網站 </span></span><span data-ccp-props="{}" data-wac-het="1"> </span></p>
+<p><span data-contrast="none"><span data-wac-het="1">10.40723242 (簽)<span> </span></span></span><span data-contrast="none"><span data-wac-het="1">已建立完成網站<span> </span></span></span><span data-contrast="none"><span data-wac-het="1">小組長</span></span><span data-ccp-props="{}" data-wac-het="1"> </span></p>
+<p><span data-contrast="none"><span data-wac-het="1">11.40723246 (group leader) (簽)<span> </span></span></span><span data-contrast="none"><span data-wac-het="1">已建立完成網站</span></span><span data-ccp-props="{}" data-wac-het="1"> </span></p>
+<p><span data-contrast="none"><span data-wac-het="1">12.40732319 (簽)</span></span><span data-ccp-props="{}" data-wac-het="1">  </span></p>
+<p><span><span data-contrast="none"><span data-wac-het="1">日後小組分工</span></span><span data-ccp-props="{}" data-wac-het="1"> </span></span></p>
+<p><span data-contrast="none"><span data-wac-het="1">1.由(40723201、40723206、40723230、40723241、40723246)，</span><span data-wac-het="1">已經建立好網站及編輯完網站的同學，前去協助還沒完成的同學，<span>及分配工作</span></span></span></p>
+<p><span data-contrast="none"><span data-wac-het="1">2.</span></span><span data-contrast="none"><span data-wac-het="1">40723213</span></span><span data-contrast="none"><span data-wac-het="1">、</span></span><span data-contrast="none"><span data-wac-het="1">40723242督處尚未完成的同學，互相協助來完成第一周課程</span></span><span data-ccp-props="{}" data-wac-het="1"> </span></p>
+<p><span data-contrast="none"><span data-wac-het="1">3.40723223</span></span><span data-contrast="none"><span data-wac-het="1">、</span></span><span data-contrast="none"><span data-wac-het="1">40723223負責處理小組會議</span></span><span data-ccp-props="{}" data-wac-het="1"> </span></p>
+<p><span data-contrast="none"><span data-wac-het="1">4.40723246<span> </span></span></span><span data-contrast="none"><span data-wac-het="1">負責製作小組會議PDF</span></span></p>
+<p><span data-contrast="none"><span data-wac-het="1">5.40723241</span></span><span data-contrast="none"><span data-wac-het="1">、</span></span><span data-contrast="none"><span data-wac-het="1">40723216提醒小組問題及完成分組作業</span></span><span data-ccp-props="{}" data-wac-het="1"> </span></p>
+<p><span><span data-contrast="none"><span data-wac-het="1">組員會議中提醒的事項:</span></span></span></p>
+<p><span data-ccp-props="{}" data-wac-het="1"> </span><span data-contrast="none"><span data-wac-het="1">1.網站的格式及編譯</span></span><span data-ccp-props="{}" data-wac-het="1"> </span></p>
+<p><span data-ccp-props="{}" data-wac-het="1"> </span><span data-contrast="none"><span data-wac-het="1">2.其餘的工作分配</span></span><span data-ccp-props="{}" data-wac-het="1"> </span></p>
+<p><span data-ccp-props="{}" data-wac-het="1"> </span><span data-contrast="none"><span data-wac-het="1">3.PDF放倉儲的download及如何放置</span></span></p>
+<p><span data-contrast="none"><span data-wac-het="1"><img alt="" height="421" src="https://s40723246.github.io/cd2020/images/001.PNG" width="411"/></span></span></p><br />開會紀錄-1 << <a href='開會紀錄-1.html'>Previous</a> <a href='Week6~Week9.html'>Next</a> >> Week6~Week9</div>
         
     <!-- footer -->
       <div class="container">
