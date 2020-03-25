@@ -46,9 +46,9 @@
 <tnodes>
 <t tx="leo.20180902120523.1"></t>
 <t tx="leo.20180902120523.10">## 40723201 CAD2020
-## 機械設計工程系 協同產品設計與實習
+### 機械設計工程系 協同產品設計與實習
 
-### KMOLab
+
 
 &lt;small&gt;
 Created by [40723201](https://www.youtube.com/channel/UCIU4i9CyBAqXo4XxK0p6Q4A/videos?view=0&amp;sort=dd&amp;shelf_id=1)
