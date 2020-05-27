@@ -154,66 +154,17 @@ img.add_border {
           </div>
           
         </header>
-    <div id="tipue_search_content">Weeks << <a href='Weeks.html'>Previous</a> <a href='第1次開會紀錄.html'>Next</a> >> 第1次開會紀錄<br /><h1>Week1~Week5</h1>
-<p><strong><span style="color: #ff0000;">WEEK1</span></strong></p>
-<p><strong>建立個人倉儲cd2020及進行網站編譯</strong></p>
-<p><strong>．下載<a href="https://drive.google.com/file/d/1fxMdqdCoCL__O1IpZ-Sv-A_4-c77Wx4E/view?usp=sharing">2019Fall可攜套件.7z</a> ，完成後開啟。<br/>．登入個人github帳號，創建新的倉儲cd2020。<br/>．進入要存放資料夾tmp。<br/>．輸入 git clone  https://github.com/s40723201/cd2020  複製個人倉儲至資料夾。<br/>．輸入 git submodule add https://github.com/mdecourse/cmsimde.git  取得子模組資料。<br/>．將 up_dir 的所有項目複製到cd2020。<br/>．完成後，python wsgi.py 開始編輯倉儲。<br/>．編輯完成後，git status -&gt; git add . -&gt; git commit -m "XXX" -&gt; git push。</strong></p>
-<p><strong><span style="color: #ff0000;">WEEK 2</span></strong></p>
-<p><strong>將可攜系統中的 python3.7.3 更新至 python3.8.2 版本</strong></p>
-<p><strong>．收尋 <a href="https://www.python.org/">Python</a>官網。</strong><br/><strong><span color="#808080">．點選Downloads下的<a href="https://www.python.org/downloads/windows/">Windows</a>，並點選 <a href="https://www.python.org/downloads/release/python-382/">Latest Python 3 Release - Python 3.8.2</a>。</span><span color="#808080"><br/>．找到 <span style="color: #ff0000;"><a href="https://www.python.org/ftp/python/3.8.2/python-3.8.2-amd64.exe" style="color: #ff0000;">Windows x86-64 executable installer</a> </span>並下載。</span></strong><span color="#808080"><br/><strong>．開始下載，必須將 <span style="color: #ff0000;">pip</span>選項<span style="color: #ff0000;">取消</span></strong><br/></span><strong><span color="#000000">．建立新的start.bat</span></strong></p>
-<p><strong>start.bat:</strong></p>
-<div>
-<table>
-<tbody>
-<tr>
-<td><span>@echo off</span><br/><span>set Disk=y</span><br/><span>subst %Disk%: "data"</span><br/><br/><span>%Disk%:</span><br/><br/><span>set HomePath=%Disk%:\home_mdecourse</span><br/><span>set HomeDrive=%Disk%:\home_mdecourse</span><br/><span>set Home=%Disk%:\home_mdecourse</span><br/><span>set USERPROFILE=%Disk%:\home_mdecourse</span><br/><br/><span>REM 將系統 Python 程式的 io 設為 utf-8</span><br/><span>set PYTHONIOENCODING="utf-8"</span><br/><br/><span>set PYTHONPATH=%Disk%:\py38\DLLs;%Disk%:\py38\Lib;%Disk%:\py38\Lib\site-packages;</span><br/><span>set PYTHONHOME=%Disk%:\py38</span><br/><br/><span>REM for flutter</span><br/><span>set java_home=%Disk%:\java\jdk8u222-b10</span><br/><span>set ANDROID_SDK_home=%Disk%:\home_mdecourse</span><br/><span>set GRADLE_USER_home=%Disk%:\home_mdecourse</span><br/><span>set ANDROID_SDK_ROOT=%Disk%:\android\sdk</span><br/><span>set ANDROID_Home=%Disk%:\android\sdk\tools</span><br/><br/><span>REM for putty</span><br/><span>set GIT_HOME=%CDisk%:\portablegit\bin\</span><br/><span>set GIT_SSH=%Disk%:\putty\plink.exe</span><br/><br/><span>set path_python=%Disk%:\py38;%Disk%:\py38\Scripts;</span><br/><span>set path_msys2=%Disk%:\msys64\mingw64\bin;</span><br/><span>REM coreutils is for compiling fossil scm</span><br/><span>set path_coreutils=%Disk%:\coreutils-5.3.0\bin;%Disk%:\depends22_x64;</span><br/><span>set path_tcc=%Disk%:\tcc;</span><br/><span>set path_cmake=%Disk%:\cmake-3.10.1-win64-x64\bin;</span><br/><span>set path_nodejs=%Disk%:\nodejs;%Disk%:\nodejs\appdata\roaming\npm;</span><br/><span>set path_git=%Disk%:\portablegit\bin;</span><br/><span>set path_xming=%Disk%:\Xming;</span><br/><span>set path_latex=%Disk%:\Pandoc;%Disk%:\TinyTeX\bin\win32;</span><br/><span>set path_flutter=%Disk%:\java\jdk8u222-b10\bin;%Disk%:\flutter\bin;%Disk%:\Android\sdk;%Disk%:\Android\sdk\tools;%Disk%:\Android\sdk\tools\bin;%Disk%:\Android\sdk\platform-tools;%Disk%:\flutter\bin\cache\dart-sdk\bin;%Disk%:\vscode;</span><br/><span>set path_putty=%Disk%:\putty;</span><br/><br/><span>path=%Disk%:;%path_python%;%path_msys2%;%path_tcc%;%path_git%;%path_cmake%;%path_coreutils%;%path_flutter%;%path_putty%;%path_latex%;%path%;</span><br/><br/><span>start /MIN cmd.exe</span><br/><span>start /MIN cmd.exe</span><br/><span>start /MIN cmd.exe</span><br/><span>start /MIN cmd.exe</span><br/><br/><span>start /MIN %Disk%:\wscite415\wscite\SciTE.exe</span><br/><span>start /MIN %Disk%:\wscite415\wscite\SciTE.exe</span><br/><br/><br/><span>Exit</span></td>
-</tr>
-</tbody>
-</table>
-<p><strong>．執行指令，將python3.8.2版本缺少的模組下載下來。</strong></p>
-<div>
-<div class="syntaxhighlighter py" id="highlighter_583434">
-<table border="0" cellpadding="0" cellspacing="0" style="width: 531px;">
-<tbody>
-<tr>
-<td class="gutter" style="width: 25.4px;">
-<div class="line number1 index0 alt2">1</div>
-</td>
-<td class="code" style="width: 503.6px;">
-<div class="container">
-<div class="line number1 index0 alt2"><code class="py plain">python get</code><code class="py keyword">-</code><code class="py plain">pip.py</code></div>
-</div>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-<div></div>
-<div>
-<div class="syntaxhighlighter py" id="highlighter_220325">
-<table border="0" cellpadding="0" cellspacing="0">
-<tbody>
-<tr>
-<td class="gutter">
-<div class="line number1 index0 alt2">2</div>
-</td>
-<td class="code">
-<div class="container">
-<div class="line number1 index0 alt2"><code class="py plain">pip install flask bs4 lxml pelican markdown flask_cors leo</code></div>
-</div>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-<p><span><span> </span></span></p>
-</div>
-<p><strong>．下載MSYS2 <a class="button" href="http://repo.msys2.org/distrib/x86_64/msys2-x86_64-20190524.exe">msys2-x86_64-20190524.exe</a> 至data下。</strong></p>
-<p><strong>．下載SciTE系統 <a href="https://www.scintilla.org/wscite432.zip">full 64-bit download</a>，下載完後解壓縮至data下的wscite432。</strong></p>
-<p><strong>．下載PortableGit <a href="https://github.com/git-for-windows/git/releases/download/v2.25.1.windows.1/PortableGit-2.25.1-64-bit.7z.exe">64-bit Git for Windows Portable</a> 至 portablegit下。<br/><span color="#000000">．安裝pip，到</span><a href="https://bootstrap.pypa.io/get-pip.py">https://bootstrap.pypa.io/get-pip.py</a>頁面，另存新檔到data下。</strong><br/><span></span></p>
-<br />Weeks << <a href='Weeks.html'>Previous</a> <a href='第1次開會紀錄.html'>Next</a> >> 第1次開會紀錄</div>
+    <div id="tipue_search_content">Week10~Week14 << <a href='Week10~Week14.html'>Previous</a> <a href='Week15~Week18.html'>Next</a> >> Week15~Week18<br /><h1>第4次開會紀錄</h1>
+<p><span>作業三：</span><span><br/></span><span>根據對</span><span><a href="http://mde.tw/cd2020/content/Topics.html">Topic2</a></span><span>和</span><span><a href="http://mde.tw/cd2020/content/Topics.html">Topic3</a></span><span>的閱讀，使用</span><span><a href="https://www.coppeliarobotics.com/">CoppeliaSim</a></span><span>、</span><span><a href="https://cyberbotics.com/">Webots</a></span><span>、</span><a href="https://www.onshape.com/"><span>Onshap</span>e</a><span>提出一個機電一體化項目。</span></p>
+<p><span>topic2:</span></p>
+<p><span>coppeliasim</span>:40723246</p>
+<p><span>MSModelingAndTFApproaches.pdf</span>. 207頁:5人<br/>40723216<br/>40723213<br/>40723223<br/>40723241<br/>40723230</p>
+<p><br/><span>MechatronicDesignCases.pdf</span>. 46頁:2人<br/>40723229<br/>40723206</p>
+<p><span>topic3:</span></p>
+<p><span>MechaFutureAndChallenges.pdf</span>. 38頁:1人<br/>40623246</p>
+<p><span>MechaEducFutureNeed.pdf</span>. 20頁:1人<br/>40723242</p>
+<p>開會影片：</p>
+<p><span style="color: #000000;"><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/Ti7BFHDErb8" width="560"></iframe></span></p><br />Week10~Week14 << <a href='Week10~Week14.html'>Previous</a> <a href='Week15~Week18.html'>Next</a> >> Week15~Week18</div>
         
     <!-- footer -->
       <div class="container">
