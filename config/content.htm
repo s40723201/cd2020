@@ -445,13 +445,48 @@
 <p><strong>　　電動執行器通常是精確而靈活的。它們是精確定位機械零件或在需要時迅速發展力量的理想之選。它們的主要缺點是在其運行過程中需要使用帶電的冷卻系統。對它們進行良好設計和良好保護後，其維護工作將減少至滑動觸點或換向器的變化。如果未安裝保護裝置，大負載可能會燒毀電動執行器的繞組。</strong></p>
 <p><strong>步進電機更適合控制不需要反饋的機械零件。這些類型的執行器通常用於開環控制和機械零件的定位。為此，發送一定數量的脈衝這些執行器用於激光打印機，傳真機和大多數計算機設備。</strong></p>
 <p><span style="color: #ff0000;"> WEEK13</span></p>
-<p><span style="color: #000000;"><img alt="" height="263" src="/images/493-封面故事-網頁3-(960).png" width="600"/></span></p>
-<p><strong>　　網路通訊協定（Internet Protocol，IP）是用於網路交換封包的一種協定，它定義了定址方式及資料的封裝結構。而IP位址則是在網路上替主機定義位址，簡單來說它類似於公司地址，能夠明確標示出公司所在位址。</strong></p>
-<p><strong>　　目前最被廣泛使用的網路協定為IPv4，現代人上網使用的任何服務，幾乎都使用到它。而近幾年經常被提及的IPv6，則是被視為繼承IPv4的下一代網路協定。其設計初衷，是在90年代有學者擔心IPv4位址不夠使用，所以重新規畫。因此IPv6除了在位址數量上大幅增加外，更進一步針對安全性、QoS等問題加以改進。</strong></p>
-<p><strong>　　雖然這兩個協定似乎只是版本上的差異，但實際上它們是徹底完全不同的兩個協定。它們就像中文和英文的差別，雖然都是用來溝通的語言，但其構造及語法差異極大。也因為這樣，IPv4與IPv6不能互通，IPv4的用戶只能連線到IPv4的網站，且IPv6亦然。</strong></p>
-<p><span style="color: #000080;"><strong>位址的數量</strong></span></p>
-<p><strong>　　這兩個世代的網路協定，最明顯的差異就在於其提供的網路位址數量。IPv4的位址格式是採用32位元長度，位址能提供2的32次方個，換算後約42億個。雖然IPv4有這麼多IP位址，但依舊在2011年的2月3日消耗殆盡。</strong></p>
-<p><strong>　　而IPv6的位址格式則採用128位元長度，其位址能提供2的128次方個。它所能提供的IP位址，遠遠超過IPv4的數量，預估能讓地球上每個人都分到100萬個IP位址，或是地球上每平方公尺面積皆提供1000多個IP位址。簡而言之，轉換到IPv6後，IP位址的數量多到幾乎不可能用盡。</strong></p><h3>第4次開會紀錄</h3>
+<h1>40723201</h1>
+<h4><strong>Ubuntu對外連線設定</strong></h4>
+<ul>
+<li><span>點選檔案 ➜ 喜好設定 ➜ 網路 ➜ 新增NAT網路</span></li>
+<li><span>編輯NAT網路 ➜ 點選連接埠轉送 ➜ 新增4個新的連接埠轉送埠號</span></li>
+</ul>
+<table>
+<tbody>
+<tr>
+<td>主機IP</td>
+<td>127.0.0.1</td>
+</tr>
+<tr>
+<td>客體IP</td>
+<td>10.0.2.4</td>
+</tr>
+<tr>
+<td>客體連接埠</td>
+<td>22、19999、7443、8443</td>
+</tr>
+<tr>
+<td>主機連接埠</td>
+<td>22、19999、17443、18443</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><span>點選設定 ➜ 網路 ➜ 設定主機網路 「NAT Network」。</span></li>
+<li><span>啟動➜ 輸入密碼 " </span><span>kmol2020 "</span><span>。</span><br/><span></span></li>
+<li><span>開啟LXTermial ➜ 輸入</span><span>ifconfig ➜ </span><span>輸入</span><span>sudo apt install net-tools ➜ </span><span>輸入密碼 " </span><span>kmol2020 "</span><span>。</span></li>
+<li><span>cd tmp ➜ ls ➜ 輸入 " ping 127.0.0.1 " 測試 ➜ cd cd2020pj1➜ git pull。</span></li>
+<li><span>輸入 "</span><span>sudo vi wsgi.py " </span><span>，按 </span><span>i </span><span>進行編輯。</span></li>
+<li><span>將近端的 host 改為</span><span>10.0.2.4 ➜ </span><span>按 </span><span>Esc </span><span>並輸入</span><span>:wq</span><span>存儲。</span><br/><span></span></li>
+<li><span>開啟 leo ➜ 開啟 " cd2020pj1.leo " ➜ 點選Nav搜尋</span><span>allowExt</span><span>。</span><br/><span></span></li>
+<li><span>點選fileuploadfrom ➜ 將第10行新增 ttt 檔</span></li>
+<li><span>輸入 " cd.. " ➜ 新增 oauth_scrum.txt ➜ 輸入</span><span>sudo vi oauth_scrum.txt</span><span>。</span></li>
+<li><span>按 </span><span>i </span><span>編輯 ➜ 內容隨意輸入 ➜ 按 </span><span>Esc</span><span>並輸入</span><span>:wq</span><span>存儲。</span></li>
+<li><span>cd cd2020pj1 ➜ 輸入 </span><span>python3 wsgi.py </span><span>啟動。</span><br/><span></span></li>
+<li><span>網址：</span><span>https:/127.0.0.1:18443/alogin</span><span>。</span><br/><span></span></li>
+<li><span>帳號：</span><span>admin、密碼：admin ➜ </span><span>點選 fileuploadform ➜ 上傳 ttt 檔 ➜ </span><span>點選 download list 。</span></li>
+</ul>
+<p><span style="color: #000000;"></span></p><h3>第4次開會紀錄</h3>
 <p><span>作業三：</span><span><br/></span><span>根據對</span><span><a href="http://mde.tw/cd2020/content/Topics.html">Topic2</a></span><span>和</span><span><a href="http://mde.tw/cd2020/content/Topics.html">Topic3</a></span><span>的閱讀，使用</span><span><a href="https://www.coppeliarobotics.com/">CoppeliaSim</a></span><span>、</span><span><a href="https://cyberbotics.com/">Webots</a></span><span>、</span><a href="https://www.onshape.com/"><span>Onshap</span>e</a><span>提出一個機電一體化項目。</span></p>
 <p><span>topic2:</span></p>
 <p><span>coppeliasim</span>:40723246</p>
