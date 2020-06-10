@@ -445,23 +445,23 @@
 <li><span>點選檔案 ➜ 喜好設定 ➜ 網路 ➜ 新增NAT網路</span></li>
 <li><span>編輯NAT網路 ➜ 點選連接埠轉送 ➜ 新增4個新的連接埠轉送埠號</span></li>
 </ul>
-<table>
+<table style="width: 531px;">
 <tbody>
 <tr>
-<td>主機IP</td>
-<td>127.0.0.1</td>
+<td style="width: 166.2px;">主機IP</td>
+<td style="width: 362.8px;">127.0.0.1</td>
 </tr>
 <tr>
-<td>客體IP</td>
-<td>10.0.2.4</td>
+<td style="width: 166.2px;">客體IP</td>
+<td style="width: 362.8px;">10.0.2.4</td>
 </tr>
 <tr>
-<td>客體連接埠</td>
-<td>22、19999、7443、8443</td>
+<td style="width: 166.2px;">客體連接埠</td>
+<td style="width: 362.8px;">22、19999、7443、8443</td>
 </tr>
 <tr>
-<td>主機連接埠</td>
-<td>22、19999、17443、18443</td>
+<td style="width: 166.2px;">主機連接埠</td>
+<td style="width: 362.8px;">22、19999、17443、18443</td>
 </tr>
 </tbody>
 </table>
@@ -471,15 +471,16 @@
 <li><span>開啟LXTermial ➜ 輸入</span><span>ifconfig ➜ </span><span>輸入</span><span>sudo apt install net-tools ➜ </span><span>輸入密碼 " </span><span>kmol2020 "</span><span>。</span></li>
 <li><span>cd tmp ➜ ls ➜ 輸入 " ping 127.0.0.1 " 測試 ➜ cd cd2020pj1➜ git pull。</span></li>
 <li><span>輸入 "</span><span>sudo vi wsgi.py " </span><span>，按 </span><span>i </span><span>進行編輯。</span></li>
-<li><span>將近端的 host 改為</span><span>10.0.2.4 ➜ </span><span>按 </span><span>Esc </span><span>並輸入</span><span>:wq</span><span>存儲。</span><br/><span></span></li>
-<li><span>開啟 leo ➜ 開啟 " cd2020pj1.leo " ➜ 點選Nav搜尋</span><span>allowExt</span><span>。</span><br/><span></span></li>
+<li><span>將近端的 host 改為</span><span>10.0.2.4 ➜ </span><span>按 </span><span>Esc </span><span>並輸入</span><span>:wq </span><span>存儲。</span><br/><span></span></li>
+<li><span>開啟 leo ➜ 開啟 " cd2020pj1.leo " ➜ 點選 Nav 搜尋</span><span>allowExt</span><span>。</span><br/><span></span></li>
 <li><span>點選fileuploadfrom ➜ 將第10行新增 ttt 檔</span></li>
-<li><span>輸入 " cd.. " ➜ 新增 oauth_scrum.txt ➜ 輸入</span><span>sudo vi oauth_scrum.txt</span><span>。</span></li>
+<li><span>輸入 " cd.. " ➜ 輸入</span><span>sudo vi oauth_scrum.txt ( 新增 oauth_scrum.txt )</span><span>。</span></li>
 <li><span>按 </span><span>i </span><span>編輯 ➜ 內容隨意輸入 ➜ 按 </span><span>Esc</span><span>並輸入</span><span>:wq</span><span>存儲。</span></li>
 <li><span>cd cd2020pj1 ➜ 輸入 </span><span>python3 wsgi.py </span><span>啟動。</span><br/><span></span></li>
 <li><span>網址：</span><span>https:/127.0.0.1:18443/alogin</span><span>。</span><br/><span></span></li>
-<li><span>帳號：</span><span>admin、密碼：admin ➜ </span><span>點選 fileuploadform ➜ 上傳 ttt 檔 ➜ </span><span>點</span><span>download list 。</span></li>
+<li><span>查看是否上傳成功：帳號：</span><span>admin、密碼：admin ➜ </span><span>點選 fileuploadform ➜ 上傳 ttt 檔 ➜ </span><span>點</span><span>download list 。</span></li>
 </ul>
+<p><span><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/KlzjqkUS_vo" width="560"></iframe></span></p>
 <p><span style="color: #ff0000;">WEEK13</span></p>
 <h4><strong><span>filezilla設定</span></strong></h4>
 <ul>
@@ -526,7 +527,7 @@
 <p><a href="https://github.com/mdecourse/cmsimde">https://github.com/mdecourse/cmsimde</a> 的開發, 可以在一個目錄中放入 cmsimde, 然後將 up_dir 中的內容放到與 cmsimde 目錄同位階的地方, 使用 command 進入 cmsimde 目錄, 執行 python wsgi.py, 就可以啟動, 以瀏覽器 https://localhost:9443 就可以連接, 以 admin 作為管理者密碼, 就可以登入維護內容.</p>
 <p>cmsimde 的開發採用 Leo Editor, 開啟 cmsimde 目錄中的 cmsimde.leo 就可以進行程式修改, 結束後, 若要保留網際內容, 只要將 cmsimde 外部的內容倒回 up_dir 目錄中即可後續對 cmsimde 遠端倉儲進行改版.</p>
 <p>init.py 位於  up_dir 目錄, 可以設定 site_title 與 uwsgi 等變數.</p>
-<h2 class="gh-header-title f1 mr-0 flex-auto break-word"><span class="js-issue-title">git clone後cmsimde無資料</span></h2>
+<h2>git clone後cmsimde無資料</h2>
 <ul>
 <li><span class="js-issue-title"><span>git clone (網址) ➜ git pull</span></span></li>
 <li><span class="js-issue-title"><span>cd cmsimde ➜ git submodule init ➜ </span></span><span class="js-issue-title"><span>git submodule update</span></span></li>
