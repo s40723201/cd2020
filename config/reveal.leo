@@ -396,11 +396,10 @@ vertical: body pane on the botton</t>
 
 ．下載2019Fall可攜套件.7z ，完成後開啟。
 ．登入個人github帳號，創建新的倉儲cd2020。
-．進入要存放資料夾tmp。
-．輸入 git clone  https://github.com/s40723201/cd2020  複製個人倉儲至資料夾。
-．輸入 git submodule add https://github.com/mdecourse/cmsimde.git  取得子模組資料。
+．進入tmp。
+．輸入 git clone  (個人網址)  。
+．輸入 git submodule add (網址) 取得子模組資料。
 ．將 up_dir 的所有項目複製到cd2020。
-．完成後，python wsgi.py 開始編輯倉儲。
 </t>
 <t tx="leo.20200611164117.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
