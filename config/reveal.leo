@@ -411,7 +411,7 @@ vertical: body pane on the botton</t>
 </t>
 <t tx="leo.20200611164117.2"># WEEK2
 
-將可攜系統中的 python3.7.3 更新至 python3.8.2 版本
+### 將可攜系統中的 python3.7.3 更新至 python3.8.2 版本
 
 *搜尋 Python官網。
 *點選Downloads下的Windows，並點選 Latest Python 3 Release - Python 3.8.2。
