@@ -392,7 +392,7 @@ vertical: body pane on the botton</t>
 </t>
 <t tx="leo.20200611164113.2"># WEEK1
 
-建立個人倉儲cd2020及進行網站編譯
+### 建立個人倉儲cd2020及進行網站編譯
 
 ．下載2019Fall可攜套件.7z ，完成後開啟。
 ．登入個人github帳號，創建新的倉儲cd2020。
