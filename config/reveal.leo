@@ -390,7 +390,7 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20200611164113.2"># 投影片快捷鍵
+<t tx="leo.20200611164113.2"># WEEK1
 
 * 利用箭頭上下前後換頁
 * 按 f 鍵進入全螢幕模式 (full screen)
@@ -409,7 +409,7 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20200611164117.2"># 投影片快捷鍵
+<t tx="leo.20200611164117.2"># WEEK2
 
 * 利用箭頭上下前後換頁
 * 按 f 鍵進入全螢幕模式 (full screen)
@@ -428,7 +428,7 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20200611164121.2"># 投影片快捷鍵
+<t tx="leo.20200611164121.2"># WEEK3
 
 * 利用箭頭上下前後換頁
 * 按 f 鍵進入全螢幕模式 (full screen)
@@ -447,7 +447,7 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20200611164125.2"># 投影片快捷鍵
+<t tx="leo.20200611164125.2"># WEEK4
 
 * 利用箭頭上下前後換頁
 * 按 f 鍵進入全螢幕模式 (full screen)
@@ -466,7 +466,7 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20200611164129.2"># 投影片快捷鍵
+<t tx="leo.20200611164129.2"># WEEK5
 
 * 利用箭頭上下前後換頁
 * 按 f 鍵進入全螢幕模式 (full screen)
@@ -485,7 +485,7 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20200611164134.2"># 投影片快捷鍵
+<t tx="leo.20200611164134.2"># WEEK6
 
 * 利用箭頭上下前後換頁
 * 按 f 鍵進入全螢幕模式 (full screen)
@@ -504,7 +504,7 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20200611164140.2"># 投影片快捷鍵
+<t tx="leo.20200611164140.2"># WEEK7
 
 * 利用箭頭上下前後換頁
 * 按 f 鍵進入全螢幕模式 (full screen)
@@ -523,7 +523,7 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20200611164153.2"># 投影片快捷鍵
+<t tx="leo.20200611164153.2"># WEEK8
 
 * 利用箭頭上下前後換頁
 * 按 f 鍵進入全螢幕模式 (full screen)
@@ -542,7 +542,7 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20200611164158.2"># 投影片快捷鍵
+<t tx="leo.20200611164158.2"># WEEK9
 
 * 利用箭頭上下前後換頁
 * 按 f 鍵進入全螢幕模式 (full screen)
@@ -561,7 +561,7 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20200611164203.2"># 投影片快捷鍵
+<t tx="leo.20200611164203.2"># WEEK10
 
 * 利用箭頭上下前後換頁
 * 按 f 鍵進入全螢幕模式 (full screen)
@@ -580,7 +580,7 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20200611164208.2"># 投影片快捷鍵
+<t tx="leo.20200611164208.2"># WEEK11
 
 * 利用箭頭上下前後換頁
 * 按 f 鍵進入全螢幕模式 (full screen)
@@ -599,7 +599,7 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20200611164215.2"># 投影片快捷鍵
+<t tx="leo.20200611164215.2"># WEEK12
 
 * 利用箭頭上下前後換頁
 * 按 f 鍵進入全螢幕模式 (full screen)
@@ -618,7 +618,7 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20200611164220.2"># 投影片快捷鍵
+<t tx="leo.20200611164220.2"># WEEK13
 
 * 利用箭頭上下前後換頁
 * 按 f 鍵進入全螢幕模式 (full screen)
@@ -637,7 +637,7 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20200611164229.2"># 投影片快捷鍵
+<t tx="leo.20200611164229.2"># WEEL14
 
 * 利用箭頭上下前後換頁
 * 按 f 鍵進入全螢幕模式 (full screen)
@@ -656,7 +656,7 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20200611164235.2"># 投影片快捷鍵
+<t tx="leo.20200611164235.2"># WEEK15
 
 * 利用箭頭上下前後換頁
 * 按 f 鍵進入全螢幕模式 (full screen)
@@ -675,7 +675,7 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20200611164240.2"># 投影片快捷鍵
+<t tx="leo.20200611164240.2"># WEEK16
 
 * 利用箭頭上下前後換頁
 * 按 f 鍵進入全螢幕模式 (full screen)
@@ -694,7 +694,7 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20200611164248.2"># 投影片快捷鍵
+<t tx="leo.20200611164248.2"># WEEK17
 
 * 利用箭頭上下前後換頁
 * 按 f 鍵進入全螢幕模式 (full screen)
@@ -713,7 +713,7 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20200611164254.2"># 投影片快捷鍵
+<t tx="leo.20200611164254.2"># WEEK18
 
 * 利用箭頭上下前後換頁
 * 按 f 鍵進入全螢幕模式 (full screen)
