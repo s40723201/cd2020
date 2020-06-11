@@ -6,4 +6,4 @@
 
 投影片連結：https://s40723201.github.io/cd2020/reveal/index.html#/
 
-期中影片：
+期末影片：
