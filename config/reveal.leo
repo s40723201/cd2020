@@ -395,10 +395,15 @@ vertical: body pane on the botton</t>
 ### 建立個人倉儲cd2020及進行網站編譯
 
 ．下載2019Fall可攜套件.7z ，完成後開啟。
+
 ．登入個人github帳號，創建新的倉儲cd2020。
+
 ．進入tmp。
+
 ．輸入 git clone  (個人網址)  。
+
 ．輸入 git submodule add (網址) 取得子模組資料。
+
 ．將 up_dir 的所有項目複製到cd2020。
 </t>
 <t tx="leo.20200611164117.1">&lt;section data-markdown&gt;
