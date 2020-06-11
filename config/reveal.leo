@@ -417,14 +417,19 @@ vertical: body pane on the botton</t>
 </t>
 <t tx="leo.20200611164117.2"># WEEK2
 
-* 利用箭頭上下前後換頁
-* 按 f 鍵進入全螢幕模式 (full screen)
-* 按 s 鍵可以顯示投影片筆記 (show)
-* 按 o 鍵可以切換單張或全域檢視 (overview)
-* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
-* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
+將可攜系統中的 python3.7.3 更新至 python3.8.2 版本
 
-</t>
+．搜尋 Python官網。
+
+．點選Downloads下的Windows，並點選 Latest Python 3 Release - Python 3.8.2。
+
+．找到 Windows x86-64 executable installer 並下載。
+
+．開始下載，必須將 pip選項取消。
+
+．建立新的start.bat。
+
+．執行指令，將python3.8.2版本缺少的模組下載下來。</t>
 <t tx="leo.20200611164121.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
