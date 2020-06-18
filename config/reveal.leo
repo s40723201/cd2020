@@ -27,15 +27,6 @@
 <v t="leo.20200611164117.1"><vh>WEEK2</vh>
 <v t="leo.20200611164117.2"><vh>投影片快捷鍵</vh></v>
 </v>
-<v t="leo.20200611164121.1"><vh>WEEK3</vh>
-<v t="leo.20200611164121.2"><vh>投影片快捷鍵</vh></v>
-</v>
-<v t="leo.20200611164125.1"><vh>WEEK4</vh>
-<v t="leo.20200611164125.2"><vh>投影片快捷鍵</vh></v>
-</v>
-<v t="leo.20200611164129.1"><vh>WEEK5</vh>
-<v t="leo.20200611164129.2"><vh>投影片快捷鍵</vh></v>
-</v>
 <v t="leo.20200611164134.1"><vh>WEEK6</vh>
 <v t="leo.20200611164134.2"><vh>投影片快捷鍵</vh></v>
 </v>
@@ -392,7 +383,7 @@ vertical: body pane on the botton</t>
 </t>
 <t tx="leo.20200611164113.2"># WEEK1
 
-### 建立個人倉儲cd2020及進行網站編譯
+建立個人倉儲cd2020及進行網站編譯
 
 * 下載2019Fall可攜套件.7z ，完成後開啟。
 * 登入個人github帳號，創建新的倉儲cd2020。
@@ -421,63 +412,6 @@ vertical: body pane on the botton</t>
 * 建立新的start.bat。
 * 執行指令，將python3.8.2版本缺少的模組下載下來。
 </t>
-<t tx="leo.20200611164121.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20200611164121.2"># WEEK3
-
-* 利用箭頭上下前後換頁
-* 按 f 鍵進入全螢幕模式 (full screen)
-* 按 s 鍵可以顯示投影片筆記 (show)
-* 按 o 鍵可以切換單張或全域檢視 (overview)
-* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
-* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
-
-</t>
-<t tx="leo.20200611164125.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20200611164125.2"># WEEK4
-
-* 利用箭頭上下前後換頁
-* 按 f 鍵進入全螢幕模式 (full screen)
-* 按 s 鍵可以顯示投影片筆記 (show)
-* 按 o 鍵可以切換單張或全域檢視 (overview)
-* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
-* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
-
-</t>
-<t tx="leo.20200611164129.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20200611164129.2"># WEEK5
-
-* 利用箭頭上下前後換頁
-* 按 f 鍵進入全螢幕模式 (full screen)
-* 按 s 鍵可以顯示投影片筆記 (show)
-* 按 o 鍵可以切換單張或全域檢視 (overview)
-* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
-* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
-
-</t>
 <t tx="leo.20200611164134.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -489,12 +423,11 @@ vertical: body pane on the botton</t>
 </t>
 <t tx="leo.20200611164134.2"># WEEK6
 
-* 利用箭頭上下前後換頁
-* 按 f 鍵進入全螢幕模式 (full screen)
-* 按 s 鍵可以顯示投影片筆記 (show)
-* 按 o 鍵可以切換單張或全域檢視 (overview)
-* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
-* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
+* 安裝OBSPortable.exe與yotube做配合,往後拍影片,頭像左下角需要有自己的影像
+* 翻譯：Topic 1: Mechanical Design Process
+
+
+
 
 </t>
 <t tx="leo.20200611164140.1">&lt;section data-markdown&gt;
@@ -508,13 +441,9 @@ vertical: body pane on the botton</t>
 </t>
 <t tx="leo.20200611164140.2"># WEEK7
 
-* 利用箭頭上下前後換頁
-* 按 f 鍵進入全螢幕模式 (full screen)
-* 按 s 鍵可以顯示投影片筆記 (show)
-* 按 o 鍵可以切換單張或全域檢視 (overview)
-* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
-* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
+四輪車的基本外型設置
 
+&lt;iframe width="560" height="314" src="https://www.youtube.com/embed/-PgoCncqY74" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 </t>
 <t tx="leo.20200611164153.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -527,14 +456,11 @@ vertical: body pane on the botton</t>
 </t>
 <t tx="leo.20200611164153.2"># WEEK8
 
-* 利用箭頭上下前後換頁
-* 按 f 鍵進入全螢幕模式 (full screen)
-* 按 s 鍵可以顯示投影片筆記 (show)
-* 按 o 鍵可以切換單張或全域檢視 (overview)
-* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
-* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
+安裝以下三個模組
 
-</t>
+* pip install opencv-python
+* pip install imutils
+* pip install numpy</t>
 <t tx="leo.20200611164158.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -546,12 +472,9 @@ vertical: body pane on the botton</t>
 </t>
 <t tx="leo.20200611164158.2"># WEEK9
 
-* 利用箭頭上下前後換頁
-* 按 f 鍵進入全螢幕模式 (full screen)
-* 按 s 鍵可以顯示投影片筆記 (show)
-* 按 o 鍵可以切換單張或全域檢視 (overview)
-* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
-* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
+期末影片
+
+&lt;iframe width="560" height="314" src="https://www.youtube.com/embed/-PgoCncqY74" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
 </t>
 <t tx="leo.20200611164203.1">&lt;section data-markdown&gt;
