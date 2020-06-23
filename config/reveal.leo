@@ -517,8 +517,6 @@ ubuntu設置
 </t>
 <t tx="leo.20200611164215.2"># WEEK12
 
-WEEK12
-
 * 翻譯：MSModelingAndTFApproaches
 * Ubuntu對外連線設定
 
