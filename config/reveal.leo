@@ -443,7 +443,7 @@ vertical: body pane on the botton</t>
 
 四輪車的基本外型設置
 
-&lt;iframe width="560" height="314" src="https://www.youtube.com/embed/-PgoCncqY74" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe width="640" height="360" src="https://www.youtube.com/embed/-PgoCncqY74" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 </t>
 <t tx="leo.20200611164153.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -474,7 +474,7 @@ vertical: body pane on the botton</t>
 
 期末影片
 
-&lt;iframe width="560" height="314" src="https://www.youtube.com/embed/-PgoCncqY74" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe width="640" height="360" src="https://www.youtube.com/embed/-PgoCncqY74" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
 </t>
 <t tx="leo.20200611164203.1">&lt;section data-markdown&gt;
@@ -490,7 +490,7 @@ vertical: body pane on the botton</t>
 
 google用戶登陸
 
-&lt;iframe width="560" height="314" src="https://youtu.be/3c_KvPZlJzM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe width="640" height="360" src="https://youtu.be/3c_KvPZlJzM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
 </t>
 <t tx="leo.20200611164208.1">&lt;section data-markdown&gt;
@@ -504,13 +504,9 @@ google用戶登陸
 </t>
 <t tx="leo.20200611164208.2"># WEEK11
 
-* 利用箭頭上下前後換頁
-* 按 f 鍵進入全螢幕模式 (full screen)
-* 按 s 鍵可以顯示投影片筆記 (show)
-* 按 o 鍵可以切換單張或全域檢視 (overview)
-* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
-* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
+ubuntu設置
 
+&lt;iframe width="640" height="360" src="https://youtu.be/wVKjw0yVteE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 </t>
 <t tx="leo.20200611164215.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
