@@ -490,7 +490,7 @@ vertical: body pane on the botton</t>
 
 google用戶登陸
 
-&lt;iframe width="640" height="360" src="https://youtu.be/3c_KvPZlJzM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe width="640" height="360" src="https://www.youtube.com/embed/3c_KvPZlJzM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 </t>
 <t tx="leo.20200611164208.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -505,8 +505,7 @@ google用戶登陸
 
 ubuntu設置
 
-&lt;iframe width="640" height="360" src="https://youtu.be/wVKjw0yVteE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
-</t>
+&lt;iframe width="640" height="360" src="https://www.youtube.com/embed/wVKjw0yVteE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20200611164215.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -523,9 +522,7 @@ WEEK12
 * 翻譯：MSModelingAndTFApproaches
 * Ubuntu對外連線設定
 
-&lt;iframe width="640" height="360" src="https://youtu.be/KlzjqkUS_vo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
-
-</t>
+&lt;iframe width="640" height="360" src="https://www.youtube.com/embed/KlzjqkUS_vo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20200611164220.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
