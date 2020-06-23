@@ -54,15 +54,6 @@
 <v t="leo.20200611164229.1"><vh>WEEK14</vh>
 <v t="leo.20200611164229.2"><vh>投影片快捷鍵</vh></v>
 </v>
-<v t="leo.20200611164235.1"><vh>WEEK15</vh>
-<v t="leo.20200611164235.2"><vh>投影片快捷鍵</vh></v>
-</v>
-<v t="leo.20200611164240.1"><vh>WEEK16</vh>
-<v t="leo.20200611164240.2"><vh>投影片快捷鍵</vh></v>
-</v>
-<v t="leo.20200611164248.1"><vh>WEEK17</vh>
-<v t="leo.20200611164248.2"><vh>投影片快捷鍵</vh></v>
-</v>
 <v t="leo.20200611164254.1"><vh>WEEK18</vh>
 <v t="leo.20200611164254.2"><vh>投影片快捷鍵</vh></v>
 </v>
@@ -472,7 +463,7 @@ vertical: body pane on the botton</t>
 </t>
 <t tx="leo.20200611164158.2"># WEEK9
 
-期末影片
+期中影片
 
 &lt;iframe width="640" height="360" src="https://www.youtube.com/embed/-PgoCncqY74" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
@@ -554,71 +545,10 @@ filezilla設定
 </t>
 <t tx="leo.20200611164229.2"># WEEL14
 
-* 利用箭頭上下前後換頁
-* 按 f 鍵進入全螢幕模式 (full screen)
-* 按 s 鍵可以顯示投影片筆記 (show)
-* 按 o 鍵可以切換單張或全域檢視 (overview)
-* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
-* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
+mini project
 
-</t>
-<t tx="leo.20200611164235.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20200611164235.2"># WEEK15
-
-* 利用箭頭上下前後換頁
-* 按 f 鍵進入全螢幕模式 (full screen)
-* 按 s 鍵可以顯示投影片筆記 (show)
-* 按 o 鍵可以切換單張或全域檢視 (overview)
-* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
-* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
-
-</t>
-<t tx="leo.20200611164240.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20200611164240.2"># WEEK16
-
-* 利用箭頭上下前後換頁
-* 按 f 鍵進入全螢幕模式 (full screen)
-* 按 s 鍵可以顯示投影片筆記 (show)
-* 按 o 鍵可以切換單張或全域檢視 (overview)
-* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
-* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
-
-</t>
-<t tx="leo.20200611164248.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20200611164248.2"># WEEK17
-
-* 利用箭頭上下前後換頁
-* 按 f 鍵進入全螢幕模式 (full screen)
-* 按 s 鍵可以顯示投影片筆記 (show)
-* 按 o 鍵可以切換單張或全域檢視 (overview)
-* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
-* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
-
-</t>
+* [網站](http://mde.tw/cdbw14-3 )
+* [倉儲](https://github.com/mdecourse/cdbw14-3.git )</t>
 <t tx="leo.20200611164254.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -630,13 +560,7 @@ filezilla設定
 </t>
 <t tx="leo.20200611164254.2"># WEEK18
 
-* 利用箭頭上下前後換頁
-* 按 f 鍵進入全螢幕模式 (full screen)
-* 按 s 鍵可以顯示投影片筆記 (show)
-* 按 o 鍵可以切換單張或全域檢視 (overview)
-* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
-* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
-
+期末影片
 </t>
 </tnodes>
 </leo_file>
