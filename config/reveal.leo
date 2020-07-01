@@ -27,6 +27,9 @@
 <v t="leo.20200611164117.1"><vh>WEEK2</vh>
 <v t="leo.20200611164117.2"><vh>投影片快捷鍵</vh></v>
 </v>
+<v t="leo.20200701223525.1"><vh>WEEK3</vh>
+<v t="leo.20200701223525.2"><vh>投影片快捷鍵</vh></v>
+</v>
 <v t="leo.20200611164134.1"><vh>WEEK6</vh>
 <v t="leo.20200611164134.2"><vh>投影片快捷鍵</vh></v>
 </v>
@@ -56,9 +59,6 @@
 </v>
 <v t="leo.20200611164254.1"><vh>WEEK18</vh>
 <v t="leo.20200611164254.2"><vh>投影片快捷鍵</vh></v>
-</v>
-<v t="leo.20180902120523.11"><vh>快捷鍵</vh>
-<v t="leo.20180902120523.12"><vh>投影片快捷鍵</vh></v>
 </v>
 <v t="leo.20180902120523.13"><vh>各式內容引用範例</vh>
 <v t="leo.20180902120523.14"><vh>導入數學符號與方程式</vh>
@@ -95,25 +95,6 @@ Created by [40723201](https://www.youtube.com/channel/UCIU4i9CyBAqXo4XxK0p6Q4A/v
 [倉儲](https://github.com/s40723201/cd2020)
 
 [分組](https://s40723246.github.io/cd2020-bg1/content/index.html)
-
-</t>
-<t tx="leo.20180902120523.11">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20180902120523.12"># 投影片快捷鍵
-
-* 利用箭頭上下前後換頁
-* 按 f 鍵進入全螢幕模式 (full screen)
-* 按 s 鍵可以顯示投影片筆記 (show)
-* 按 o 鍵可以切換單張或全域檢視 (overview)
-* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
-* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
 
 </t>
 <t tx="leo.20180902120523.13">&lt;section&gt;
@@ -563,5 +544,17 @@ mini project
 期末影片
 
 &lt;iframe width="640" height="360" src="https://www.youtube.com/embed/Y98HU39IWfE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20200701223525.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200701223525.2"># 第1次開會
+
+&lt;iframe src="https://s40723201.github.io/cd2020/content/%E7%AC%AC1%E6%AC%A1%E9%96%8B%E6%9C%83%E7%B4%80%E9%8C%84.html" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;</t>
 </tnodes>
 </leo_file>
