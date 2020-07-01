@@ -105,9 +105,10 @@ Created by [40723201](https://www.youtube.com/channel/UCIU4i9CyBAqXo4XxK0p6Q4A/v
 [網誌](https://s40723201.github.io/cd2020/content/index.html)
 
 [倉儲](https://github.com/s40723201/cd2020)
+&lt;hr&gt;
+分組
 
-[分組](https://s40723246.github.io/cd2020-bg1/content/index.html)
-
+[網誌](https://s40723246.github.io/cd2020-bg1/content/index.html)
 </t>
 <t tx="leo.20180902120523.13">&lt;section&gt;
 @others
