@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'KMOL'
-SITENAME = 'CMSimfly 網際內容管理'
+SITENAME = ' 40723201 cd2020 協同產品設計與實習'
 # 不要用文章所在目錄作為類別
 USE_FOLDER_AS_CATEGORY = False
 

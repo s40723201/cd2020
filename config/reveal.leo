@@ -398,10 +398,10 @@ vertical: body pane on the botton</t>
 
 * 搜尋 Python官網。
 * 點選Downloads下的Windows，並點選 Latest Python 3 Release - Python 3.8.2。
-* 找到 Windows x86-64 executable installer 並下載。
-* 開始下載，必須將 pip選項取消。
+*下載 Windows x86-64 executable installer 。
+* 將 pip選項取消。
 * 建立新的start.bat。
-* 執行指令，將python3.8.2版本缺少的模組下載下來。
+* 下載 python3.8.2 版本缺少的模組。
 </t>
 <t tx="leo.20200611164134.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
