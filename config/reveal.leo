@@ -27,8 +27,11 @@
 <v t="leo.20200611164117.1"><vh>WEEK2</vh>
 <v t="leo.20200611164117.2"><vh>投影片快捷鍵</vh></v>
 </v>
-<v t="leo.20200701223525.1"><vh>WEEK3</vh>
+<v t="leo.20200701223525.1"><vh>MEET1</vh>
 <v t="leo.20200701223525.2"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20200701224324.1"><vh>MEET2</vh>
+<v t="leo.20200701224324.2"><vh>投影片快捷鍵</vh></v>
 </v>
 <v t="leo.20200611164134.1"><vh>WEEK6</vh>
 <v t="leo.20200611164134.2"><vh>投影片快捷鍵</vh></v>
@@ -42,11 +45,17 @@
 <v t="leo.20200611164158.1"><vh>WEEK9</vh>
 <v t="leo.20200611164158.2"><vh>投影片快捷鍵</vh></v>
 </v>
+<v t="leo.20200701224522.1"><vh>MEET3</vh>
+<v t="leo.20200701224522.2"><vh>投影片快捷鍵</vh></v>
+</v>
 <v t="leo.20200611164203.1"><vh>WEEK10</vh>
 <v t="leo.20200611164203.2"><vh>投影片快捷鍵</vh></v>
 </v>
 <v t="leo.20200611164208.1"><vh>WEEK11</vh>
 <v t="leo.20200611164208.2"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20200701224611.1"><vh>MEET4</vh>
+<v t="leo.20200701224611.2"><vh>投影片快捷鍵</vh></v>
 </v>
 <v t="leo.20200611164215.1"><vh>WEEK12</vh>
 <v t="leo.20200611164215.2"><vh>投影片快捷鍵</vh></v>
@@ -57,7 +66,10 @@
 <v t="leo.20200611164229.1"><vh>WEEK14</vh>
 <v t="leo.20200611164229.2"><vh>投影片快捷鍵</vh></v>
 </v>
-<v t="leo.20200611164254.1"><vh>WEEK18</vh>
+<v t="leo.20200701225238.1"><vh>WEEK15</vh>
+<v t="leo.20200701225238.2"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20200611164254.1"><vh>WEEK17</vh>
 <v t="leo.20200611164254.2"><vh>投影片快捷鍵</vh></v>
 </v>
 <v t="leo.20180902120523.13"><vh>各式內容引用範例</vh>
@@ -539,7 +551,7 @@ mini project
 
 						
 </t>
-<t tx="leo.20200611164254.2"># WEEK18
+<t tx="leo.20200611164254.2"># WEEK17
 
 期末影片
 
@@ -556,5 +568,65 @@ mini project
 <t tx="leo.20200701223525.2"># 第1次開會
 
 &lt;iframe src="https://s40723201.github.io/cd2020/content/%E7%AC%AC1%E6%AC%A1%E9%96%8B%E6%9C%83%E7%B4%80%E9%8C%84.html" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20200701224324.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200701224324.2"># 第2次開會
+
+&lt;iframe src="https://s40723201.github.io/cd2020/content/%E7%AC%AC2%E6%AC%A1%E9%96%8B%E6%9C%83%E7%B4%80%E9%8C%84.html" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20200701224522.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200701224522.2"># 第3次開會
+
+&lt;iframe src="https://s40723201.github.io/cd2020/content/%E7%AC%AC3%E6%AC%A1%E9%96%8B%E6%9C%83%E7%B4%80%E9%8C%84.html" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20200701224611.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200701224611.2"># 第4次開會
+
+&lt;iframe src="https://s40723201.github.io/cd2020/content/%E7%AC%AC4%E6%AC%A1%E9%96%8B%E6%9C%83%E7%B4%80%E9%8C%84.html" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20200701225238.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200701225238.2"># WEEK15
+
+個人網站對外連線設定:
+
+* 開啟ubuntu
+
+* git clone (個人倉儲)
+
+* ifconfig 複製 ip ，開啟vi wsgi.py 將 ip貼上
+
+* 將proxy關閉、設定網路的ipv6位置，並且設定好ubnutu中的ipv6設定
+
+* 進入cmsimde後開啟python3 wsgi.py
+
+* 輸入個人網址： https://[2001:288:6004:17:2020:2:0:7201]:19443 </t>
 </tnodes>
 </leo_file>
