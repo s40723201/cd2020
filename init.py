@@ -10,7 +10,7 @@ config_dir = _curdir + "/config/"
 class Init(object):
     # uwsgi as static class variable, can be accessed by Init.uwsgi
     uwsgi = False
-    site_title = "CMSiMDE"
+    site_title = "40723201 cd2020 協同產品設計與實習"
     def __init__(self):
         # hope to create downloads and images directories　
         if not os.path.isdir(_curdir + "/downloads"):
