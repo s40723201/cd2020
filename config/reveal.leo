@@ -432,7 +432,7 @@ vertical: body pane on the botton</t>
 </t>
 <t tx="leo.20200611164140.2"># WEEK7
 
-* 四輪車的基本外型設置
+四輪車的基本外型設置
 
 &lt;iframe width="640" height="360" src="https://www.youtube.com/embed/-PgoCncqY74" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 </t>
@@ -463,7 +463,7 @@ vertical: body pane on the botton</t>
 </t>
 <t tx="leo.20200611164158.2"># WEEK9
 
-* 期中影片
+期中影片
 
 &lt;iframe width="640" height="360" src="https://www.youtube.com/embed/-PgoCncqY74" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
@@ -479,7 +479,7 @@ vertical: body pane on the botton</t>
 </t>
 <t tx="leo.20200611164203.2"># WEEK10
 
-* google用戶登陸
+google用戶登陸
 
 &lt;iframe width="640" height="360" src="https://www.youtube.com/embed/3c_KvPZlJzM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 </t>
@@ -494,7 +494,7 @@ vertical: body pane on the botton</t>
 </t>
 <t tx="leo.20200611164208.2"># WEEK11
 
-* ubuntu設置
+ubuntu設置
 
 &lt;iframe width="640" height="360" src="https://www.youtube.com/embed/wVKjw0yVteE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20200611164215.1">&lt;section data-markdown&gt;
@@ -560,7 +560,7 @@ mini project
 </t>
 <t tx="leo.20200611164254.2"># WEEK18
 
-* 期末影片
+期末影片
 
 &lt;iframe width="640" height="360" src="https://www.youtube.com/embed/Y98HU39IWfE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 </tnodes>
